@@ -1,0 +1,44 @@
+/* Navbar */
+.navbar .navbar-brand .navbar-item img {
+    height: auto  !important;
+    max-height: none !important;
+    width: 4rem !important;  /* Adjust width as needed */
+}
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hero section */
+
+section.hero {
+    background-color: rgb(54, 54, 54);
+    padding: 20rem 10rem;
+    
+}
+section.hero .subtitle, section.hero .title {
+    color: white;
+}
+.hero-body .title {
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    section.hero {
+        padding: 20rem 5rem;
+    }
+    .hero-body .title {
+        font-size: 2rem;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    section.hero {
+        padding: 10rem 1rem;
+    }
+    
+}
+
+
+
