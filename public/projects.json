@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "id": "av",
+            "img": "av-thumb.png",
+            "title": "AUDIO VISUALIZER",
+            "subtitle": "Javascript WebAudio API",
+            "content": "An Audio Visualizer that uses web audio api and canvas to create a visual representation of the audio. Academic Project. Uses beat detection, frequency analysis, and amplitude analysis to create a unique visual experience.",
+            "order": 0,
+            "buildLink": "https://people.rit.edu/me3870/330/",
+            "repoLink": "https://github.com/meaton96/AudioVisualizer"
+        },
+        {
+            "id": "k9",
+            "img": "dog-thumb.png",
+            "title": "Experiment K9",
+            "subtitle": "Unity C# Git",
+            "content": "A puzzle game where the main mechanic is swapping from 3d->2d view. Group Academic/Personal project. I was responsible for the 3d->2d mechanic, the level design, and the implementation of the puzzles.",
+            "order": 20,
+            "buildLink": "https://the-misfits-experimentk9.github.io/Experiment_K9/",
+            "repoLink": "https://github.com/The-Misfits-ExperimentK9/Experiment_K9"
+        },
+        {
+            "id": "poc",
+            "img": "poc-thumb.png",
+            "title": "Price of Convenience",
+            "subtitle": "Javascript React Redux REST API CORS",
+            "content": "Academic Project. A Website that fetchs API data about the ARPG Path of Exile.",
+            "order": 10,
+            "buildLink": "https://people.rit.edu/me3870/330/poc/",
+            "repoLink": "https://github.com/meaton96/poe-price-of-convenience/tree/react-transpile/poe-poc"
+        },
+        {
+            "id": "garden",
+            "img": "garden-thumb.png",
+            "title": "Gardenville",
+            "subtitle": "Javascript Pixi.js",
+            "content": "Garden simulator game. Academic/Personal Project. Built in one week using Pixi.js.",
+            "order": 30,
+            "buildLink": "https://people.rit.edu/me3870/235/project3/",
+            "repoLink": "https://github.com/meaton96/Gardenville"
+        },
+        {
+            "id": "shmup",
+            "img": "shmup-thumb.png",
+            "title": "SHOOT-EM-UP",
+            "subtitle": "Unity C# Collision Detection",
+            "content": "Classic shoot-'em-up arcade style top down clone.  Academic Project: Recreate the classic game without using Unity's Rigidbody or Collisions",
+            "order": 40,
+            "buildLink": "https://igm-202-2225.github.io/project-1-meaton96/",
+            "repoLink": "https://github.com/IGM-202-2225/project-1-meaton96"
+        },
+        {
+            "id": "dino",
+            "img": "dino-sim-thumb.png",
+            "title": "DINOSAUR SIMULATION",
+            "subtitle": "Unity C# Agent Simulation",
+            "content": "A simple agent simulation project. I expanded the project into a 3d world. Academic/Personal Designing movement behavior for autonomous agents.",
+            "order": 50,
+            "buildLink": "https://igm-202-2225.github.io/project-2-meaton96/",
+            "repoLink": "https://github.com/IGM-202-2225/project-2-meaton96"
+        }
+    ]
+}

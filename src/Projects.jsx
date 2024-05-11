@@ -1,16 +1,47 @@
+import React, { useState, useEffect, } from 'react';
 import ProjectCard from './ProjectCard';
-import avThumb from '/av-thumb.png';
+import './Projects.css';
+//import avThumb from '/av-thumb.png';
+import { fetchJson } from './ajax';
+
 function Projects() {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        const getProjects = async () => {
+            try {
+                const data = await fetchJson('./projects.json');
+                //  console.log('Projects:', data.projects[0]); 
+                let p = data.projects.sort((a, b) => a.order - b.order);
+                setProjects(p);
+            } catch (error) {
+                console.error('Error fetching projects:', error);
+            }
+        };
+
+        getProjects();
+    }, []);
+
     return (
-        <section id="project_header" className="container">
-            <ProjectCard
-                largeImage={avThumb}
-                title="AUDIO VISUALIZER"
-                subtitle="Javascript WebAudio API"
-                content="An Audio Visualizer that uses web audio api and canvas to create a visual representation of the audio.
-        Academic Project. Uses beat detection, frequency analysis, and amplitude analysis to create a unique visual experience."
-            />
-        </section>
+        <div className="project-wrapper">
+            <section id="project_header" className="container">
+                <div className="columns is-multiline">
+                    {projects.map(project => (
+                        <div className="column is-one-third" key={project.id}>
+                            <ProjectCard
+                                largeImage={project.img}
+                                title={project.title}
+                                subtitle={project.subtitle}
+                                content={project.content}
+                                repoLink={project.repoLink}
+                                buildLink={project.buildLink}
+                            />
+                        </div>
+                    ))}
+                </div>
+            </section>
+        </div>
     );
 }
+
 export default Projects;

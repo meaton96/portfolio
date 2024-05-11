@@ -1,0 +1,30 @@
+.card-footer-item img {
+    max-width: 80px; /* Sets a maximum width to 50px */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+.card-footer-item {
+    padding: 0;
+    margin-bottom: 0;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 625px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Optional: Adds shadow for better visibility */
+}
+
+.card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+.content {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.card-footer {
+    margin-top: auto;
+}
