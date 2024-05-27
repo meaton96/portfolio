@@ -8,7 +8,8 @@
             "content": "An Audio Visualizer that uses web audio api and canvas to create a visual representation of the audio. Academic Project. Uses beat detection, frequency analysis, and amplitude analysis to create a unique visual experience.",
             "order": 0,
             "buildLink": "https://people.rit.edu/me3870/330/",
-            "repoLink": "https://github.com/meaton96/AudioVisualizer"
+            "repoLink": "https://github.com/meaton96/AudioVisualizer",
+            "render": true
         },
         {
             "id": "k9",
@@ -18,7 +19,8 @@
             "content": "A puzzle game where the main mechanic is swapping from 3d->2d view. Group Academic/Personal project. I was responsible for the 3d->2d mechanic, the level design, and the implementation of the puzzles.",
             "order": 20,
             "buildLink": "https://the-misfits-experimentk9.github.io/Experiment_K9/",
-            "repoLink": "https://github.com/The-Misfits-ExperimentK9/Experiment_K9"
+            "repoLink": "https://github.com/The-Misfits-ExperimentK9/Experiment_K9",
+            "render": true
         },
         {
             "id": "poc",
@@ -28,7 +30,8 @@
             "content": "Academic Project. A Website that fetchs API data about the ARPG Path of Exile.",
             "order": 10,
             "buildLink": "https://people.rit.edu/me3870/330/poc/",
-            "repoLink": "https://github.com/meaton96/poe-price-of-convenience/tree/react-transpile/poe-poc"
+            "repoLink": "https://github.com/meaton96/poe-price-of-convenience/tree/react-transpile/poe-poc",
+            "render": true
         },
         {
             "id": "garden",
@@ -38,7 +41,8 @@
             "content": "Garden simulator game. Academic/Personal Project. Built in one week using Pixi.js.",
             "order": 30,
             "buildLink": "https://people.rit.edu/me3870/235/project3/",
-            "repoLink": "https://github.com/meaton96/Gardenville"
+            "repoLink": "https://github.com/meaton96/Gardenville",
+            "render": true
         },
         {
             "id": "shmup",
@@ -48,7 +52,8 @@
             "content": "Classic shoot-'em-up arcade style top down clone.  Academic Project: Recreate the classic game without using Unity's Rigidbody or Collisions",
             "order": 40,
             "buildLink": "https://igm-202-2225.github.io/project-1-meaton96/",
-            "repoLink": "https://github.com/IGM-202-2225/project-1-meaton96"
+            "repoLink": "https://github.com/IGM-202-2225/project-1-meaton96",
+            "render": true
         },
         {
             "id": "dino",
@@ -58,7 +63,8 @@
             "content": "A simple agent simulation project. I expanded the project into a 3d world. Academic/Personal Designing movement behavior for autonomous agents.",
             "order": 50,
             "buildLink": "https://igm-202-2225.github.io/project-2-meaton96/",
-            "repoLink": "https://github.com/IGM-202-2225/project-2-meaton96"
+            "repoLink": "https://github.com/IGM-202-2225/project-2-meaton96",
+            "render": true
         }
     ]
 }

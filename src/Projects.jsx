@@ -24,18 +24,20 @@ function Projects() {
         <div className="project-wrapper">
             <section id="project_header" className="container">
                 <div className="columns is-multiline">
-                    {projects.map(project => (
-                        <div className="column is-one-third" key={project.id}>
-                            <ProjectCard
-                                largeImage={project.img}
-                                title={project.title}
-                                subtitle={project.subtitle}
-                                content={project.content}
-                                repoLink={project.repoLink}
-                                buildLink={project.buildLink}
-                            />
-                        </div>
-                    ))}
+                    {projects.
+                        filter(project => project.render).
+                        map(project => (
+                            <div className="column is-one-third" key={project.id}>
+                                <ProjectCard
+                                    largeImage={project.img}
+                                    title={project.title}
+                                    subtitle={project.subtitle}
+                                    content={project.content}
+                                    repoLink={project.repoLink}
+                                    buildLink={project.buildLink}
+                                />
+                            </div>
+                        ))}
                 </div>
             </section>
         </div>
