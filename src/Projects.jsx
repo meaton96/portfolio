@@ -1,7 +1,6 @@
 import React, { useState, useEffect, } from 'react';
 import ProjectCard from './ProjectCard';
 import './Projects.css';
-//import avThumb from '/av-thumb.png';
 import { fetchJson } from './ajax';
 
 function Projects() {
@@ -11,7 +10,6 @@ function Projects() {
         const getProjects = async () => {
             try {
                 const data = await fetchJson('./projects.json');
-                //  console.log('Projects:', data.projects[0]); 
                 let p = data.projects.sort((a, b) => a.order - b.order);
                 setProjects(p);
             } catch (error) {

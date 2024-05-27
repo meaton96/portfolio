@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import myLogo from '/logo_white_transparent.png';
 import gitLogo from '/github-mark-white.png';
 import liLogo from '/linked_in_logo.png';
+import './Header.css';
 
 
 function Header() {
@@ -37,7 +38,7 @@ function Header() {
                         <a href="https://github.com/meaton96" className="navbar-item">
                             <img src={gitLogo} alt="Github" />
                         </a>
-                        <a href='./eaton_resume.pdf' target="_blank" className="navbar-item">
+                        <a href='https://www.linkedin.com/in/mike-eaton-b75491274/' target="_blank" className="navbar-item">
                             <img src={liLogo} alt="LinkedIn" />
                         </a>
 
