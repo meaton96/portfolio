@@ -1,12 +1,67 @@
 {
     "projects": [
         {
+            "id": "card-api",
+            "img": "card-api-thumb.png",
+            "title": "SECTOR DOWN CARD API",
+            "subtitle": "Fullstack React Express",
+            "content": "A fullstack application that allows users to create, edit, and delete cards for the game Sector Down. Personal Project. Authentication, sessions, AWS, image uploading, DBMS, and REST API.",
+            "order": 5,
+            "buildLink": "#",
+            "repoLink": "https://github.com/meaton96/p1-430-me3870",
+            "render": true
+        },
+        {
+            "id": "kitchen",
+            "img": "kitchen-thumb.jpg",
+            "title": "KITCHEN SYNC",
+            "subtitle": "React Express MongoDB Redis AWS S3",
+            "content": "A social media + recipe sharing/editing + pantry tracking webpage. Personal Project. Uses React for the front end, Express for the backend, and MongoDB for the database.",
+            "order": 0,
+            "buildLink": "#",
+            "repoLink": "https://github.com/meaton96/p2-430-me3870",
+            "render": true
+        },
+        {
+            "id": "nyc",
+            "img": "nyc-thumb.png",
+            "title": "NYC STORY MAP",
+            "subtitle": "Python Arcgis",
+            "content": "A story map of New York City. Academic Project. Uses ArcGIS Pro, with python data processing, to create a map of NYC with various layers of information.",
+            "order": 20,
+            "buildLink": "nyc_map.pdf",
+            "repoLink": "https://storymaps.arcgis.com/stories/7f3eb5456ac149818c24f12a34b06972",
+            "render": true
+        },
+        {
+            "id": "peace-web",
+            "img": "peaceland_logo.png",
+            "title": "PEACELAND WEB",
+            "subtitle": "Fullstack React.js Strapi",
+            "content": "A website for the Peaceland Game project. Personal/Work Project. Uses a react front end with a strapi backend. The website is a showcase for the game and the team.",
+            "order": 10,
+            "buildLink": "http://www.peaceland-game.com/",
+            "repoLink": "https://github.com/meaton96/peaceland-web",
+            "render": true
+        },
+        {
+            "id": "peace",
+            "img": "peaceland_concept.png",
+            "title": "PEACELAND",
+            "subtitle": "Unity C# Project Management",
+            "content": "(concept art by MG Irvine) A peacebuilding game built in Unity. Personal/Work Project. I was responsible for the project management, package management, and the implementation of the game mechanics.",
+            "order": 6,
+            "buildLink": "http://www.peaceland-game.com/",
+            "repoLink": "#",
+            "render": true
+        },
+        {
             "id": "av",
             "img": "av-thumb.png",
             "title": "AUDIO VISUALIZER",
             "subtitle": "Javascript WebAudio API",
             "content": "An Audio Visualizer that uses web audio api and canvas to create a visual representation of the audio. Academic Project. Uses beat detection, frequency analysis, and amplitude analysis to create a unique visual experience.",
-            "order": 0,
+            "order": 21,
             "buildLink": "https://people.rit.edu/me3870/330/",
             "repoLink": "https://github.com/meaton96/AudioVisualizer",
             "render": true
@@ -17,8 +72,8 @@
             "title": "Experiment K9",
             "subtitle": "Unity C# Git",
             "content": "A puzzle game where the main mechanic is swapping from 3d->2d view. Group Academic/Personal project. I was responsible for the 3d->2d mechanic, the level design, and the implementation of the puzzles.",
-            "order": 20,
-            "buildLink": "https://the-misfits-experimentk9.github.io/Experiment_K9/",
+            "order": 22,
+            "buildLink": "https://themisfits.itch.io/experiment-k9",
             "repoLink": "https://github.com/The-Misfits-ExperimentK9/Experiment_K9",
             "render": true
         },
@@ -28,7 +83,7 @@
             "title": "Price of Convenience",
             "subtitle": "Javascript React Redux REST API CORS",
             "content": "Academic Project. A Website that fetchs API data about the ARPG Path of Exile.",
-            "order": 10,
+            "order": 23,
             "buildLink": "https://people.rit.edu/me3870/330/poc/",
             "repoLink": "https://github.com/meaton96/poe-price-of-convenience/tree/react-transpile/poe-poc",
             "render": true
