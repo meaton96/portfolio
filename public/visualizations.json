@@ -1,0 +1,13 @@
+{
+  "visualizations": [
+    {
+      "id": "rf-imp",
+      "title": "Feature Importance: Random Forest",
+      "desc": "Top features for global up/down model.",
+      "meta": "scikit-learn • matplotlib",
+      "thumb": "rf-imp.png",
+      "nb": "https://github.com/…/notebook.ipynb",
+      "live": "https://your-demo-or-dashboard"
+    }
+  ]
+}
