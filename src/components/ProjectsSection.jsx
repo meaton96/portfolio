@@ -15,18 +15,15 @@ const ProjectsSection = ({ projects, loading, error }) => (
       <Grid
         container
         spacing={3}
-        alignItems="stretch"         // make rows align by height
         sx={{ mt: 2 }}
+        alignItems="stretch"
       >
         {projects.map((proj) => (
           <Grid
-            item
+            // v2: use size instead of xs/sm/md/lg, and no `item`
             key={proj.id || proj.title}
-            xs={12}                   // 1 per row on phones
-            sm={6}                    // 2 per row on small screens
-            md={4}                    // 3 per row on medium
-            lg={3}                    // 4 per row on large
-            sx={{ display: "flex" }}  // let the Card fill the grid cell
+            size={{ xs: 12, sm: 6, md: 4, lg: 3 }}
+            sx={{ display: "flex" }}   // let the Card fill the grid cell
           >
             <Card
               variant="outlined"
@@ -42,7 +39,6 @@ const ProjectsSection = ({ projects, loading, error }) => (
                   component="img"
                   image={`/${proj.img}`}
                   alt={proj.title}
-                  // keep all thumbnails consistent
                   sx={{ aspectRatio: "16/9", objectFit: "cover" }}
                 />
               )}
@@ -53,12 +49,7 @@ const ProjectsSection = ({ projects, loading, error }) => (
                 </Typography>
 
                 {proj.subtitle && (
-                  <Typography
-                    variant="caption"
-                    color="text.secondary"
-                    display="block"
-                    sx={{ mb: 1 }}
-                  >
+                  <Typography variant="caption" color="text.secondary" sx={{ mb: 1 }}>
                     {proj.subtitle}
                   </Typography>
                 )}
@@ -70,7 +61,7 @@ const ProjectsSection = ({ projects, loading, error }) => (
                     sx={{
                       mb: 2,
                       display: "-webkit-box",
-                      WebkitLineClamp: 3,           // clamp so rows stay even
+                      WebkitLineClamp: 3,
                       WebkitBoxOrient: "vertical",
                       overflow: "hidden",
                     }}
@@ -80,18 +71,12 @@ const ProjectsSection = ({ projects, loading, error }) => (
                 )}
 
                 <Stack direction="row" spacing={1} sx={{ mt: "auto" }}>
-                  {proj.repoLink && (
-                    <Button
-                      size="small"
-                      component="a"
-                      href={proj.repoLink}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                  {(proj.showRepoLink && proj.repoLink) && (
+                    <Button size="small" component="a" href={proj.repoLink} target="_blank" rel="noreferrer">
                       Repo
                     </Button>
                   )}
-                  {proj.buildLink && (
+                  {(proj.showBuildLink && proj.buildLink) && (
                     <Button
                       size="small"
                       variant="outlined"

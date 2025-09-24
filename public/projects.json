@@ -9,7 +9,9 @@
             "order": 5,
             "buildLink": "#",
             "repoLink": "https://github.com/meaton96/p1-430-me3870",
-            "render": true
+            "render": true,
+            "showBuildLink": false,
+            "showRepoLink": true
         },
         {
             "id": "kitchen",
@@ -20,7 +22,9 @@
             "order": 0,
             "buildLink": "#",
             "repoLink": "https://github.com/meaton96/p2-430-me3870",
-            "render": true
+            "render": true,
+            "showBuildLink": false,
+            "showRepoLink": true
         },
         {
             "id": "nyc",
@@ -31,7 +35,9 @@
             "order": 20,
             "buildLink": "nyc_map.pdf",
             "repoLink": "https://storymaps.arcgis.com/stories/7f3eb5456ac149818c24f12a34b06972",
-            "render": true
+            "render": true,
+            "showBuildLink": true,
+            "showRepoLink": true
         },
         {
             "id": "peace-web",
@@ -40,9 +46,11 @@
             "subtitle": "Fullstack React.js Strapi",
             "content": "A website for the Peaceland Game project. Personal/Work Project. Uses a react front end with a strapi backend. The website is a showcase for the game and the team.",
             "order": 10,
-            "buildLink": "http://www.peaceland-game.com/",
+            "buildLink": "#",
             "repoLink": "https://github.com/meaton96/peaceland-web",
-            "render": true
+            "render": true,
+            "showBuildLink": false,
+            "showRepoLink": true
         },
         {
             "id": "peace",
@@ -51,9 +59,11 @@
             "subtitle": "Unity C# Project Management",
             "content": "(concept art by MG Irvine) A peacebuilding game built in Unity. Personal/Work Project. I was responsible for the project management, package management, and the implementation of the game mechanics.",
             "order": 6,
-            "buildLink": "http://www.peaceland-game.com/",
+            "buildLink": "#",
             "repoLink": "#",
-            "render": true
+            "render": true,
+            "showBuildLink": false,
+            "showRepoLink": false
         },
         {
             "id": "av",
@@ -64,7 +74,9 @@
             "order": 21,
             "buildLink": "https://people.rit.edu/me3870/330/",
             "repoLink": "https://github.com/meaton96/AudioVisualizer",
-            "render": true
+            "render": true,
+            "showBuildLink": true,
+            "showRepoLink": true
         },
         {
             "id": "k9",
@@ -75,7 +87,9 @@
             "order": 22,
             "buildLink": "https://themisfits.itch.io/experiment-k9",
             "repoLink": "https://github.com/The-Misfits-ExperimentK9/Experiment_K9",
-            "render": true
+            "render": true,
+            "showBuildLink": true,
+            "showRepoLink": true
         },
         {
             "id": "poc",
@@ -86,7 +100,9 @@
             "order": 23,
             "buildLink": "https://people.rit.edu/me3870/330/poc/",
             "repoLink": "https://github.com/meaton96/poe-price-of-convenience/tree/react-transpile/poe-poc",
-            "render": true
+            "render": true,
+            "showBuildLink": true,
+            "showRepoLink": true
         },
         {
             "id": "garden",
@@ -97,7 +113,9 @@
             "order": 30,
             "buildLink": "https://people.rit.edu/me3870/235/project3/",
             "repoLink": "https://github.com/meaton96/Gardenville",
-            "render": true
+            "render": true,
+            "showBuildLink": true,
+            "showRepoLink": true
         },
         {
             "id": "shmup",
@@ -108,7 +126,9 @@
             "order": 40,
             "buildLink": "https://igm-202-2225.github.io/project-1-meaton96/",
             "repoLink": "https://github.com/IGM-202-2225/project-1-meaton96",
-            "render": true
+            "render": true,
+            "showBuildLink": true,
+            "showRepoLink": true
         },
         {
             "id": "dino",
@@ -119,7 +139,9 @@
             "order": 50,
             "buildLink": "https://igm-202-2225.github.io/project-2-meaton96/",
             "repoLink": "https://github.com/IGM-202-2225/project-2-meaton96",
-            "render": true
+            "render": true,
+            "showBuildLink": true,
+            "showRepoLink": true
         }
     ]
 }
