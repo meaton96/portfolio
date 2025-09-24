@@ -4,24 +4,13 @@ import Header from './Header';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import AdminPanel from './AdminPanel';
+import Portfolio from './Portfolio';
 
 function App() {
   return (
-    <Router>
       <div className="App">
-        <Header />
-        <Routes>
-          <Route path="/me3870/portfolio" element={
-            <>
-              <AboutMe />
-              <Projects />
-            </>
-
-          } />
-          <Route path="/me3870/portfolio/admin" element={<AdminPanel />} />
-        </Routes>
+       <Portfolio/>
       </div>
-    </Router>
   );
 }
 
