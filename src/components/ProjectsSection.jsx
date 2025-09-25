@@ -20,7 +20,7 @@ const ProjectsSection = ({ projects, loading, error }) => (
       >
         {projects.map((proj) => (
           <Grid
-            // v2: use size instead of xs/sm/md/lg, and no `item`
+            
             key={proj.id || proj.title}
             size={{ xs: 12, sm: 6, md: 4, lg: 3 }}
             sx={{ display: "flex" }}   // let the Card fill the grid cell

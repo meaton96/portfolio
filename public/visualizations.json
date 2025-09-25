@@ -3,11 +3,32 @@
     {
       "id": "rf-imp",
       "title": "Feature Importance: Random Forest",
-      "desc": "Top features for global up/down model.",
+      "desc": "Top features for global up/down stock model.",
       "meta": "scikit-learn • matplotlib",
-      "thumb": "rf-imp.png",
-      "nb": "https://github.com/…/notebook.ipynb",
-      "live": "https://your-demo-or-dashboard"
+      "thumb": "1.png",
+      "nb": "https://github.com/meaton96/StockPrediction/blob/main/notebooks/04_RandomForest.ipynb"
+      
+    },
+    {
+
+      "id": "c-sweep",
+      "title": "Hyperparmeter Tuning",
+      "desc": "C sweep using rolling cross validation.",
+      "meta": "scikit-learn • CV • time-series",
+      "thumb": "2.png",
+      "nb": "https://github.com/meaton96/StockPrediction/blob/main/notebooks/03_LinearModels.ipynb"
+      
+    },
+    {
+
+      "id": "cnf-mtrx",
+      "title": "Confusion Metrics",
+      "desc": "Metric measurement for several stock models",
+      "meta": "scikit-learn • model evaluation",
+      "thumb": "3.png",
+      "nb": "https://github.com/meaton96/StockPrediction/blob/main/notebooks/03_LinearModels.ipynb"
+      
     }
+    
   ]
 }

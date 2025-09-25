@@ -10,14 +10,40 @@ const HeroSection = () => (
         Turning messy data into clean insights, and insights into decisions.
       </Typography>
       <Stack direction="row" spacing={2} justifyContent="center">
-        <Button variant="outlined">Resume</Button>
+        <Button
+          component="a"
+          href="/eaton-resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          variant="outlined"
+        >
+          Resume
+        </Button>
         <Button variant="outlined">Projects</Button>
         <Button variant="outlined">About</Button>
       </Stack>
       <Stack direction="row" spacing={2} justifyContent="center" sx={{ mt: 2 }}>
-        <IconButton color="inherit" aria-label="LinkedIn"><LinkedIn /></IconButton>
-        <IconButton color="inherit" aria-label="GitHub"><GitHub /></IconButton>
-        <IconButton color="inherit" aria-label="Email"><Mail /></IconButton>
+        <IconButton
+          component="a"
+          href="https://www.linkedin.com/in/mike-eaton-ds"
+          target="_blank"
+          rel="noopener noreferrer"
+          color="inherit"
+          aria-label="LinkedIn"
+        >
+          <LinkedIn />
+        </IconButton>
+        <IconButton
+          component="a"
+          href="https://github.com/meaton96"
+          target="_blank"
+          rel="noopener noreferrer"
+          color="inherit"
+          aria-label="GitHub"
+        >
+          <GitHub />
+        </IconButton>
+        {/* <IconButton color="inherit" aria-label="Email"><Mail /></IconButton> */}
       </Stack>
     </Container>
   </Box>
