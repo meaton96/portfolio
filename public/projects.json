@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": "readmission-proj",
-            "img": "stocks.jpg",
+            "img": "readmit.png",
             "title": "READMISSION PREDICTION",
             "subtitle": "Scikit-Learn Pandas",
             "content": "Built a cost-based model to maximize per-patient savings by prediction and preventing hospital readmissions.",
