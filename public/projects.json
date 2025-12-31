@@ -1,6 +1,19 @@
 {
     "projects": [
         {
+            "id": "readmission-proj",
+            "img": "stocks.jpg",
+            "title": "READMISSION PREDICTION",
+            "subtitle": "Scikit-Learn Pandas",
+            "content": "Built a cost-based model to maximize per-patient savings by prediction and preventing hospital readmissions.",
+            "order": 9,
+            "buildLink": "https://github.com/meaton96/Eaton_633_Project/blob/main/Eaton_633_Report.pdf",
+            "repoLink": "https://colab.research.google.com/drive/1E7_V81cGwYKiwLW7abePrrMUHN1nQ2SL?authuser=1#scrollTo=UICnoNynEFXb",
+            "render": true,
+            "showBuildLink": true,
+            "showRepoLink": true
+        },
+        {
             "id": "stocks-p",
             "img": "stocks.jpg",
             "title": "STOCK PREDICTION",
