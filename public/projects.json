@@ -6,12 +6,25 @@
             "title": "READMISSION PREDICTION",
             "subtitle": "Scikit-Learn Pandas",
             "content": "Built a cost-based model to maximize per-patient savings by prediction and preventing hospital readmissions.",
-            "order": 9,
+            "order": 5,
             "buildLink": "https://github.com/meaton96/Eaton_633_Project/blob/main/Eaton_633_Report.pdf",
             "repoLink": "https://colab.research.google.com/drive/1E7_V81cGwYKiwLW7abePrrMUHN1nQ2SL?authuser=1#scrollTo=UICnoNynEFXb",
             "render": true,
             "showBuildLink": true,
             "showRepoLink": true
+        },
+        {
+            "id": "factory",
+            "img": "factory.png",
+            "title": "PRODUCTION OPTIMIZER",
+            "subtitle": "Linear Programming Full Stack Web Development",
+            "content": "Designed a LP model to optimize complex resource management problems",
+            "order": 9,
+            "buildLink": "https://satisfactory-organizer.vercel.app/#/calculator",
+            "repoLink": "",
+            "render": true,
+            "showBuildLink": true,
+            "showRepoLink": false
         },
         {
             "id": "stocks-p",
