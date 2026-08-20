@@ -1,6 +1,45 @@
 {
     "projects": [
         {
+            "id": "sandbox",
+            "img": "ai.jpg",
+            "title": "MULTI-AGENT SANDBOX",
+            "subtitle": "AI Agents System Design",
+            "content": "Designed an agentic OS for researching multi-agent systems.",
+            "order": 1,
+            "buildLink": "",
+            "repoLink": "https://github.com/meaton96/agentic-ai-project",
+            "render": true,
+            "showBuildLink": false,
+            "showRepoLink": true
+        },
+        {
+            "id": "capstone",
+            "img": "capstone.jpeg",
+            "title": "DJFSP DRL CAPSTONE",
+            "subtitle": "Unity PyTorch DRL",
+            "content": "Built a Unity simluation and novel DRL model to solve the Dynamic Flexible Job Shop Scheduling Problem.",
+            "order": 2,
+            "buildLink": "",
+            "repoLink": "https://github.com/meaton96/Capstone",
+            "render": true,
+            "showBuildLink": false,
+            "showRepoLink": true
+        },
+        {
+            "id": "lighting",
+            "img": "lighting.png",
+            "title": "LIGHTING PREDICTION",
+            "subtitle": "PyTorch Python",
+            "content": "Designed a novel NN for predicting lighting conditions in a room based on sensor data.",
+            "order": 3,
+            "buildLink": "",
+            "repoLink": "",
+            "render": true,
+            "showBuildLink": false,
+            "showRepoLink": false
+        },
+        {
             "id": "readmission-proj",
             "img": "readmit.png",
             "title": "READMISSION PREDICTION",
