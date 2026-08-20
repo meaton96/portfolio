@@ -1,6 +1,6 @@
 import * as React from "react";
-import HeroSection from "./components/HeroSection";
-import AboutSection from "./components/AboutSection";
+import NavBar from "./components/NavBar";
+import MastheadSection from "./components/MastheadSection";
 import SkillsSection from "./components/SkillsSection";
 import ProjectsSection from "./components/ProjectsSection";
 import VizGallerySection from "./components/VizGallerySection";
@@ -47,10 +47,10 @@ export default function Portfolio() {
 
   return (
     <>
-      <HeroSection />
-      <AboutSection />
-      <SkillsSection skills={skills} loading={loading} />
+      <NavBar />
+      <MastheadSection />
       <ProjectsSection projects={projects} loading={loading} error={error} />
+      <SkillsSection skills={skills} loading={loading} />
       <VizGallerySection vizItems={vizItems} loading={loading} />
       <FooterSection />
     </>
