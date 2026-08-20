@@ -18,7 +18,7 @@
             "img": "capstone.jpeg",
             "title": "DJFSP DRL CAPSTONE",
             "subtitle": "Unity PyTorch DRL",
-            "content": "Built a Unity simluation and novel DRL model to solve the Dynamic Flexible Job Shop Scheduling Problem. (Ongoing Research)",
+            "content": "Built a Unity simluation and novel DRL model to solve the DFJSP. (Ongoing Research)",
             "order": 2,
             "buildLink": "",
             "repoLink": "https://github.com/meaton96/Capstone",
