@@ -1,23 +1,19 @@
-import { Box, Container, Typography, Grid, Card, CardContent } from "@mui/material";
+import { Box, Container, Typography, Divider } from "@mui/material";
 
 const SkillsSection = ({ skills, loading }) => (
-  <Box sx={{ bgcolor: 'grey.100', py: 8 }}>
-    <Container maxWidth="lg">
-      <Typography variant="h5" align="center" fontWeight={600} gutterBottom>Skills</Typography>
+  <Box id="skills" sx={{ py: { xs: 5, md: 6 } }}>
+    <Container maxWidth="md">
+      <Typography variant="overline" color="text.secondary" sx={{ display: "block", mb: 2 }}>
+        Keywords
+      </Typography>
+      <Divider sx={{ mb: 2 }} />
+
       {loading ? (
-        <Typography align="center" color="text.secondary">Loading skills…</Typography>
+        <Typography color="text.secondary">Loading skills…</Typography>
       ) : (
-        <Grid container spacing={2} sx={{ mt: 2 }}>
-          {skills.map((skill) => (
-            <Grid item xs={6} md={3} key={skill?.id || skill}>
-              <Card variant="outlined">
-                <CardContent sx={{ textAlign: 'center', fontWeight: 500 }}>
-                  {skill?.name || skill}
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
+        <Typography sx={{ maxWidth: "70ch" }}>
+          {skills.map((skill) => (skill?.name || skill)).join(", ")}
+        </Typography>
       )}
     </Container>
   </Box>
